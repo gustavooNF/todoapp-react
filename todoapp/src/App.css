@@ -1,0 +1,56 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.align-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.style-button-cadastrar{
+  padding: 15px 20px;
+  background-color: black;
+  border-color: black;
+  font-weight: bold;
+}
+
+.style-button-atualizar{
+  background-color:black;
+  border-color: black;
+  font-weight: bold;
+}
+
+.style-button-excluir{
+  font-weight: bold;
+}
+
+.style-button-salvar{
+  background-color:black;
+  border-color: black;
+  font-weight: bold;
+}
+
+.style-button-cancelar{
+  font-weight: bold;
+}
+
+.style-title{
+  border-color: #ffffff;
+  font-weight: bold;
+}
+
+.style-header{
+  background-color:black;
+  border-color: #ffffff;
+  font-weight: bold;
+}
+
+
