@@ -1,0 +1,38 @@
+Orientação de entrega:
+
+Primeira Etapa:
+    O protótipo inicial que foi entregue em formato zip precisou ser refatorado para atender de maneira mais eficiente o
+protocolo REST e uma melhor integração com o REACT.
+
+Segunda etapa:
+    Os serviços Spring foram implemtados já na refatoração usando protocolo REST e o banco de dados escolhido foi o H2 somente por
+questões de facilidade na implementação e utilização.
+
+    Link do projeto para as duas primeiras etapas:
+
+Terceira Etapa:
+    Git:
+
+Quarta Etapa:
+    "Viabilidade da integração da aplicação Kotlin com os web services desenvolvidos em Spring. E o contrário?
+    Faz sentido integrar uma aplicação React com regras de negócio escritas em Kotlin?"
+
+    Resposta: A integração é viável e pode ser feita rapidamente devido a flexibilidade da linguagem Kotlin, tendo assim
+    uma mesma api para ambos os cenários de Web e Mobile.
+    Integrar uma aplicação com regras de negócio em Kotlin para um app react também seria viável uma vez que o React está
+    no ecossistema Javascript o que permite uma fácil integração com outras tecnologias.
+    Sobre a conversão da aplicação web para nativa sem reescrita, acredito que não seja possível. Mesmo que fosse utilizado
+    o React Native, ainda seria necessário algum tipo de reescrita.
+
+
+Aplicação:
+
+Api está preparada para rodar um banco H2 em memória, ao executar a classe principal do Spring a aplicação já irá subir
+e criar a tabela necessária para a aplicação funcionar.
+
+No arquivo .yml estão as configurações do banco de dados H2, para acessar o conselo utilize "http://localhost:8080/h2"
+username: sa
+password:    (em branco)
+
+Acompanha um script de carga, porém não é necessário que ele seja executado, sendo possível utilizar o CRUD já no primeiro
+momento que aplicação esteja rodando.
